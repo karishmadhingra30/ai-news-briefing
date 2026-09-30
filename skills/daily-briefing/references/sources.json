@@ -1,0 +1,21 @@
+{
+  "feeds": [
+    {"name": "TechCrunch", "url": "https://techcrunch.com/feed/"},
+    {"name": "The Verge", "url": "https://www.theverge.com/rss/index.xml"},
+    {"name": "Hacker News", "url": "https://news.ycombinator.com/rss"},
+    {"name": "OpenAI", "url": "https://openai.com/news/rss.xml"},
+    {"name": "Google", "url": "https://blog.google/rss/"},
+    {"name": "AWS Machine Learning", "url": "https://aws.amazon.com/blogs/machine-learning/feed/"},
+    {"name": "Microsoft", "url": "https://blogs.microsoft.com/feed/"},
+    {"name": "NVIDIA", "url": "https://blogs.nvidia.com/feed/"},
+    {"name": "Hugging Face", "url": "https://huggingface.co/blog/feed.xml"},
+    {"name": "GitHub changelog", "url": "https://github.blog/changelog/feed/"}
+  ],
+  "official_search_domains": ["openai.com", "anthropic.com", "deepmind.google", "blog.google", "blogs.microsoft.com", "aws.amazon.com", "ai.meta.com", "nvidia.com", "apple.com", "x.ai", "huggingface.co", "mistral.ai", "github.blog"],
+  "engineering_search_domains": ["langchain.com", "docs.langchain.com", "llamaindex.ai", "arize.com", "vercel.com", "cloudflare.com", "databricks.com", "snowflake.com", "simonwillison.net"],
+  "news_search_domains": ["techcrunch.com", "theverge.com", "arstechnica.com"],
+  "x_candidate_handles": ["OpenAI", "AnthropicAI", "GoogleDeepMind", "GoogleAI", "Microsoft", "AWSCloud", "NVIDIA", "huggingface", "karpathy", "swyx", "simonw"],
+  "x_note": "Candidate handles require verification before attributing a post. Public search coverage is incomplete and may lag. Never infer current employment from this list.",
+  "collection_note": "Feed URLs are configuration, not a guarantee of availability. Record errors and use official-site search fallback. Short feeds may omit earlier items; always supplement with date-scoped search."
+}
+

@@ -1,0 +1,17 @@
+{
+  "timezone": "America/Los_Angeles",
+  "schedule_local_time": "20:00",
+  "cadence": "daily",
+  "recipient": "me",
+  "delivery_mode": "preview",
+  "max_stories": 8,
+  "technical_se_weight": 0.5,
+  "customer_se_weight": 0.5,
+  "lookback_hours": 24,
+  "overlap_hours": 6,
+  "history_days": 30,
+  "paid_services_approved": false,
+  "x_coverage": "public-web-only",
+  "topics": ["AI product and model launches", "agents and tool use", "APIs and integrations", "architecture and deployment", "evaluation and observability", "enterprise adoption", "customer discovery and demos", "competitive positioning", "major technology events"]
+}
+
