@@ -1,0 +1,18 @@
+{
+  "name": "ai-news-briefing",
+  "version": "0.1.0",
+  "description": "Evidence-backed AI and solutions engineering news in technical and plain-English editions.",
+  "author": {
+    "name": "AI News Briefing contributors"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AI News Briefing",
+    "shortDescription": "Daily AI news for builders and customer-facing teams.",
+    "longDescription": "Research launches, integrations and enterprise AI news, group duplicate coverage, and prepare two cited editions. Includes standard-library Python helpers and a cloud scheduling guide. Email delivery requires the user's own authorized connection.",
+    "developerName": "AI News Briefing contributors",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Preview today's technical and plain-English AI briefings."
+  }
+}
