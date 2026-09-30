@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-29",
+  "timezone": "America/Los_Angeles",
+  "coverage_start": "2026-09-28T20:00:00-07:00",
+  "coverage_end": "2026-09-29T20:00:00-07:00",
+  "preview": true,
+  "coverage_notes": ["Fictional demonstration data for rendering and tests. This is not a real news report.", "X coverage in live runs is limited to publicly discoverable posts."],
+  "stories": [
+    {
+      "event_key": "exampleco-batch-release-2026-09-29",
+      "revision_key": "announcement",
+      "title": "Fictional example: a model provider adds batch processing",
+      "scores": {"impact": 4, "novelty": 3, "evidence": 4, "technical_se": 5, "customer_se": 5},
+      "score_reason": "Illustrates how an operational change can matter equally to implementation and customer conversations.",
+      "sources": [{"title": "Example URL — demonstration only", "url": "https://example.com/batch-announcement"}],
+      "plain": {
+        "what_happened": "In this fictional example, a provider lets customers submit many AI requests together and receive results later.",
+        "why_it_matters": "Work that does not need an instant answer could be handled differently from a live customer chat. Actual pricing would need verification.",
+        "customer_angle": "Ask which workloads truly need a real-time response. Overnight document processing may have different requirements."
+      },
+      "technical": {
+        "what_changed": "This fictional release introduces asynchronous batch jobs: submit work, then retrieve results after processing.",
+        "implementation": "A production integration would need job tracking, per-item error handling, retry rules, and a completion check.",
+        "availability_and_limits": "No real API, price, throughput limit, or service-level commitment is represented by this example.",
+        "try_or_ask": "Identify one non-interactive workload and define its acceptable completion time before selecting a provider."
+      }
+    }
+  ]
+}
